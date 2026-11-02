@@ -1,0 +1,20 @@
+; uCView32 project (.ucproj): target configuration, firmware, SVD,
+; breakpoints, watches and window layout. Paths are relative to this file.
+; Double-click it, or File > Project > Open Project..., to continue debugging.
+SYStem.DEBUGGER CMSISDAP
+SYStem.CPU Cortex-M33
+SYStem.MEMMAP 0x8000000 65536. 0x20000000 1216.
+SYStem.DEVICE RW612
+SYStem.CONFIG.DEBUGPORT SWD
+SYStem.JtagClock 50000.kHz
+FLASH.ALGorithm "D:\scs\VN_DBG32View\host-tools\Release\Data\Devices\NXP\RW612\RW61X_FlexSPI_FRDM.FLM"
+Data.LOAD.Hex "mdk\Objects\FRDM_RW612_Test.hex"
+Var.Rate AUTO
+WinPOS LIST 0 0 840 871
+WinPOS REGISTER 840 0 560 297
+WinPOS DUMP 0 445 630 298
+WinPOS WATCH 1402 1 378 298
+WinPOS FRAME 1008 445 392 298
+WinPOS BREAK 840 297 560 148
+Win.Hide SYMBOL
+Win.Hide TERM

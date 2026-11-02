@@ -1,7 +1,10 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project_projx.xsd">
+
   <SchemaVersion>2.1</SchemaVersion>
+
   <Header>### uVision Project, (C) Keil Software</Header>
+
   <Targets>
     <Target>
       <TargetName>flash_debug</TargetName>
@@ -16,28 +19,28 @@
           <PackID>NXP.RW612_DFP.25.12.00</PackID>
           <PackURL>https://mcuxpresso.nxp.com/cmsis_pack/repo/</PackURL>
           <Cpu>CPUTYPE("Cortex-M33") FPU3(SFPU) TZ</Cpu>
-          <FlashUtilSpec />
-          <StartupFile />
+          <FlashUtilSpec></FlashUtilSpec>
+          <StartupFile></StartupFile>
           <FlashDriverDll>UL2V8M(-S0 -C0 -P0 -FD1002C000 -FC8000 -FN2 -FF0RW61X_FlexSPI_FRDM -FS08000000 -FL08000000 -FF1RW61X_FlexSPI_FRDM_S -FS118000000 -FL18000000 -FP0($$Device:RW612ETA2I$arm\RW61X_FlexSPI_FRDM.FLM) -FP1($$Device:RW612ETA2I$arm\RW61X_FlexSPI_FRDM_S.FLM))</FlashDriverDll>
           <DeviceId>0</DeviceId>
           <RegisterFile>$$Device:RW612ETA2I$fsl_device_registers.h</RegisterFile>
-          <MemoryEnv />
-          <Cmp />
-          <Asm />
-          <Linker />
-          <OHString />
-          <InfinionOptionDll />
-          <SLE66CMisc />
-          <SLE66AMisc />
-          <SLE66LinkerMisc />
+          <MemoryEnv></MemoryEnv>
+          <Cmp></Cmp>
+          <Asm></Asm>
+          <Linker></Linker>
+          <OHString></OHString>
+          <InfinionOptionDll></InfinionOptionDll>
+          <SLE66CMisc></SLE66CMisc>
+          <SLE66AMisc></SLE66AMisc>
+          <SLE66LinkerMisc></SLE66LinkerMisc>
           <SFDFile>$$Device:RW612ETA2I$RW612.xml</SFDFile>
           <bCustSvd>0</bCustSvd>
           <UseEnv>0</UseEnv>
-          <BinPath />
-          <IncludePath />
-          <LibPath />
-          <RegisterFilePath />
-          <DBRegisterFilePath />
+          <BinPath></BinPath>
+          <IncludePath></IncludePath>
+          <LibPath></LibPath>
+          <RegisterFilePath></RegisterFilePath>
+          <DBRegisterFilePath></DBRegisterFilePath>
           <TargetStatus>
             <Error>0</Error>
             <ExitCodeStop>0</ExitCodeStop>
@@ -51,7 +54,7 @@
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
           <DebugInformation>1</DebugInformation>
-          <BrowseInformation>0</BrowseInformation>
+          <BrowseInformation>1</BrowseInformation>
           <ListingPath>.\Listings\</ListingPath>
           <HexFormatSelection>1</HexFormatSelection>
           <Merge32K>0</Merge32K>
@@ -59,8 +62,8 @@
           <BeforeCompile>
             <RunUserProg1>0</RunUserProg1>
             <RunUserProg2>0</RunUserProg2>
-            <UserProg1Name />
-            <UserProg2Name />
+            <UserProg1Name></UserProg1Name>
+            <UserProg2Name></UserProg2Name>
             <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
             <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
             <nStopU1X>0</nStopU1X>
@@ -69,8 +72,8 @@
           <BeforeMake>
             <RunUserProg1>0</RunUserProg1>
             <RunUserProg2>0</RunUserProg2>
-            <UserProg1Name />
-            <UserProg2Name />
+            <UserProg1Name></UserProg1Name>
+            <UserProg2Name></UserProg2Name>
             <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
             <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
             <nStopB1X>0</nStopB1X>
@@ -80,14 +83,14 @@
             <RunUserProg1>1</RunUserProg1>
             <RunUserProg2>0</RunUserProg2>
             <UserProg1Name>fromelf --bincombined --output=".\Objects\FRDM_RW612_Test.bin" "#L"</UserProg1Name>
-            <UserProg2Name />
+            <UserProg2Name></UserProg2Name>
             <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
             <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
             <nStopA1X>0</nStopA1X>
             <nStopA2X>0</nStopA2X>
           </AfterMake>
           <SelectedForBatchBuild>1</SelectedForBatchBuild>
-          <SVCSIdString />
+          <SVCSIdString></SVCSIdString>
         </TargetCommonOption>
         <CommonProperty>
           <UseCPPCompiler>0</UseCPPCompiler>
@@ -101,15 +104,15 @@
           <AssembleAssemblyFile>0</AssembleAssemblyFile>
           <PublicsOnly>0</PublicsOnly>
           <StopOnExitCode>3</StopOnExitCode>
-          <CustomArgument />
-          <IncludeLibraryModules />
+          <CustomArgument></CustomArgument>
+          <IncludeLibraryModules></IncludeLibraryModules>
           <ComprImg>1</ComprImg>
         </CommonProperty>
         <DllOption>
-          <SimDllName />
-          <SimDllArguments />
-          <SimDlgDll />
-          <SimDlgDllArguments />
+          <SimDllName></SimDllName>
+          <SimDllArguments></SimDllArguments>
+          <SimDlgDll></SimDlgDll>
+          <SimDlgDllArguments></SimDlgDllArguments>
           <TargetDllName>SARMV8M.DLL</TargetDllName>
           <TargetDllArguments> -MPU</TargetDllArguments>
           <TargetDlgDll>TCM.DLL</TargetDlgDll>
@@ -131,15 +134,15 @@
             <RunIndependent>0</RunIndependent>
             <UpdateFlashBeforeDebugging>1</UpdateFlashBeforeDebugging>
             <Capability>1</Capability>
-            <DriverSelection>4101</DriverSelection>
+            <DriverSelection>4102</DriverSelection>
           </Flash1>
           <bUseTDR>1</bUseTDR>
           <Flash2>BIN\UL2V8M.DLL</Flash2>
           <Flash3>"" ()</Flash3>
-          <Flash4 />
-          <pFcarmOut />
-          <pFcarmGrp />
-          <pFcArmRoot />
+          <Flash4></Flash4>
+          <pFcarmOut></pFcarmOut>
+          <pFcarmGrp></pFcarmGrp>
+          <pFcArmRoot></pFcArmRoot>
           <FcArmLst>0</FcArmLst>
         </Utilities>
         <TargetArmAds>
@@ -172,19 +175,21 @@
             <RvctClst>0</RvctClst>
             <GenPPlst>0</GenPPlst>
             <AdsCpuType>"Cortex-M33"</AdsCpuType>
-            <RvctDeviceName />
+            <RvctDeviceName></RvctDeviceName>
             <mOS>0</mOS>
             <uocRom>0</uocRom>
             <uocRam>0</uocRam>
-            <hadIROM>1</hadIROM>
-            <hadIRAM>1</hadIRAM>
-            <hadXRAM>1</hadXRAM>
+            <hadIROM>0</hadIROM>
+            <hadIRAM>0</hadIRAM>
+            <hadXRAM>0</hadXRAM>
             <uocXRam>0</uocXRam>
             <RvdsVP>2</RvdsVP>
             <RvdsMve>0</RvdsMve>
-            <hadIRAM2>1</hadIRAM2>
-            <hadIROM2>1</hadIROM2>
-            <StupSel>16</StupSel>
+            <RvdsCdeCp>0</RvdsCdeCp>
+            <nBranchProt>0</nBranchProt>
+            <hadIRAM2>0</hadIRAM2>
+            <hadIROM2>0</hadIROM2>
+            <StupSel>0</StupSel>
             <useUlib>0</useUlib>
             <EndSel>0</EndSel>
             <uLtcg>0</uLtcg>
@@ -207,7 +212,7 @@
             <Ra2Chk>0</Ra2Chk>
             <Ra3Chk>0</Ra3Chk>
             <Im1Chk>1</Im1Chk>
-            <Im2Chk>1</Im2Chk>
+            <Im2Chk>0</Im2Chk>
             <OnChipMemories>
               <Ocm1>
                 <Type>0</Type>
@@ -305,11 +310,11 @@
                 <Size>0x0</Size>
               </OCR_RVCT10>
             </OnChipMemories>
-            <RvctStartVector />
+            <RvctStartVector></RvctStartVector>
           </ArmAdsMisc>
           <Cads>
             <interw>1</interw>
-            <Optim>2</Optim>
+            <Optim>0</Optim>
             <oTime>0</oTime>
             <SplitLS>0</SplitLS>
             <OneElfS>1</OneElfS>
@@ -334,7 +339,7 @@
             <VariousControls>
               <MiscControls>-include "../config/mcux_config.h" -include "../config/mcuxsdk_version.h" -mcpu=cortex-m33+nodsp -mfpu=fpv5-sp-d16 -ffunction-sections -fdata-sections -fno-common -fno-builtin</MiscControls>
               <Define>CPU_RW612ETA2I,RW612_SERIES,DEBUG,MCUX_META_BUILD,MCUXPRESSO_SDK,BOOT_HEADER_ENABLE=1,SDK_DEBUGCONSOLE=1</Define>
-              <Undefine />
+              <Undefine></Undefine>
               <IncludePath>..\board;..\config;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\devices\Wireless\RW\RW612;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\devices\Wireless\RW\periph;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\devices\Wireless\RW\RW612\drivers;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\arch\arm\CMSIS\Core\Include;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\arch\arm\CMSIS\Core\Include\m-profile;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\examples\_boards\frdmrw612\flash_config;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\drivers\common;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\drivers\flexcomm;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\drivers\flexspi;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\drivers\lpc_gpio;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\drivers\cache\cache64;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\drivers\flexcomm\usart;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\assert;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\debug_console_lite;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\str;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\uart;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\comps\mcuxClBuffer\inc;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\comps\mcuxClBuffer\inc\internal;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\comps\mcuxClCore\inc;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\comps\mcuxClEls\inc;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\comps\mcuxClEls\inc\internal;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\comps\mcuxClMemory\inc;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\comps\mcuxClMemory\inc\internal;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\comps\mcuxCsslMemory\inc;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\comps\mcuxCsslMemory\inc\internal;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\comps\mcuxCsslCPreProcessor\inc;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\comps\mcuxCsslDataIntegrity\inc;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\comps\mcuxCsslFlowProtection\inc;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\comps\mcuxCsslParamIntegrity\inc;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\comps\mcuxCsslSecureCounter\inc;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\compiler;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\platforms\rw61x;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\platforms\rw61x\inc;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\includes\platform\rw61x</IncludePath>
             </VariousControls>
           </Cads>
@@ -348,11 +353,11 @@
             <NoWarn>0</NoWarn>
             <uSurpInc>0</uSurpInc>
             <useXO>0</useXO>
-            <uClangAs>1</uClangAs>
+            <ClangAsOpt>2</ClangAsOpt>
             <VariousControls>
               <MiscControls>-include "../config/mcux_config.h" -include "../config/mcuxsdk_version.h" -mcpu=cortex-m33+nodsp -mfpu=fpv5-sp-d16</MiscControls>
               <Define>CPU_RW612ETA2I,RW612_SERIES,MCUXPRESSO_SDK</Define>
-              <Undefine />
+              <Undefine></Undefine>
               <IncludePath>..\board;..\config;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\devices\Wireless\RW\RW612;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\devices\Wireless\RW\periph;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\devices\Wireless\RW\RW612\drivers;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\arch\arm\CMSIS\Core\Include;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\arch\arm\CMSIS\Core\Include\m-profile;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\examples\_boards\frdmrw612\flash_config;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\drivers\common;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\drivers\flexcomm;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\drivers\flexspi;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\drivers\lpc_gpio;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\drivers\cache\cache64;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\drivers\flexcomm\usart;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\assert;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\debug_console_lite;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\str;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\uart;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\comps\mcuxClBuffer\inc;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\comps\mcuxClBuffer\inc\internal;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\comps\mcuxClCore\inc;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\comps\mcuxClEls\inc;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\comps\mcuxClEls\inc\internal;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\comps\mcuxClMemory\inc;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\comps\mcuxClMemory\inc\internal;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\comps\mcuxCsslMemory\inc;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\comps\mcuxCsslMemory\inc\internal;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\comps\mcuxCsslCPreProcessor\inc;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\comps\mcuxCsslDataIntegrity\inc;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\comps\mcuxCsslFlowProtection\inc;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\comps\mcuxCsslParamIntegrity\inc;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\comps\mcuxCsslSecureCounter\inc;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\compiler;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\platforms\rw61x;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\src\platforms\rw61x\inc;..\..\..\MCUXpresso\mcuxpresso-sdk\mcuxsdk\components\els_pkc\includes\platform\rw61x</IncludePath>
             </VariousControls>
           </Aads>
@@ -365,13 +370,13 @@
             <useFile>0</useFile>
             <TextAddressRange>0x08000000</TextAddressRange>
             <DataAddressRange>0x20000000</DataAddressRange>
-            <pXoBase />
+            <pXoBase></pXoBase>
             <ScatterFile>..\linker\RW612_flash.scf</ScatterFile>
-            <IncludeLibs />
-            <IncludeLibsPath />
+            <IncludeLibs></IncludeLibs>
+            <IncludeLibsPath></IncludeLibsPath>
             <Misc>--remove --entry=Reset_Handler --strict --diag_suppress=6314 --cpu=Cortex-M33.no_dsp --fpu=FPv5-SP</Misc>
-            <LinkerInputFile />
-            <DisabledWarnings />
+            <LinkerInputFile></LinkerInputFile>
+            <DisabledWarnings></DisabledWarnings>
           </LDads>
         </TargetArmAds>
       </TargetOption>
@@ -589,9 +594,11 @@
       </Groups>
     </Target>
   </Targets>
+
   <RTE>
-    <apis />
-    <components />
-    <files />
+    <apis/>
+    <components/>
+    <files/>
   </RTE>
+
 </Project>
