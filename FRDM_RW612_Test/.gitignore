@@ -1,0 +1,7 @@
+.build/
+mdk/Objects/
+mdk/Listings/
+mdk/*.uvguix.*
+mdk/*.build_log.htm
+mdk/build.log
+__pycache__/
